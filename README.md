@@ -1,5 +1,6 @@
 # saucedemo.com-playwright
-3 automation scripts for saucedemo.com using Playwright
+Three automation scripts for saucedemo.com using Playwright
+
 # 🚀 SauceDemo Playwright Automation Project
 
 This project contains automated end-to-end tests for the [SauceDemo](https://www.saucedemo.com) website, built using Playwright and JavaScript according to the question of Ostad
@@ -86,7 +87,7 @@ npx playwright test --workers=1 --headed
 ```
 ------
 
-## 2. Run a Single Test File
+### 2. Run a Single Test File
 To run only one specific test file, just provide its name.
 
 ```bash
@@ -100,21 +101,21 @@ npx playwright test b.standard.user.flow.spec.js
 ## 📊 Viewing the Allure Report
 Follow these steps to generate and view a fresh, clean Allure report.
 
-## Step 1: Clean Old Report Data (Recommended)
+### Step 1: Clean Old Report Data (Recommended)
 If there is old data and you want to remove them then just delete the 2 folders -
 allure-results, 
 allure-report
 
 
-## 1. Generate the report
+### 1. Generate the report
 ```
 npx allure generate allure-results -o allure-report
 ```
 allure-results and allure-report in the command is folder name.
 
-## 2. Open the report
+### 2. Open the report
 ```
 npx allure open
 ````
 
-##Done
+##### Done
